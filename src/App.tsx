@@ -20,7 +20,7 @@ const SettingsPage = lazy(() => import('./components/settings/SettingsPage.js'))
 const ExpenseTracker = lazy(() => import('./components/expenses/ExpenseTracker.js'))
 const CreditBook = lazy(() => import('./components/credits/CreditBook.js'))
 const DealerList = lazy(() => import('./components/dealers/DealerList.js'))
-const CustomerList = lazy(() => import('./components/customers/CustomerList.js'))
+const CustomerList = lazy(() => import('./components/customers/CustomerList'))
 const ReturnsPage = lazy(() => import('./components/returns/ReturnsPage.js'))
 const DamagedStock = lazy(() => import('./components/inventory/DamagedStock.js'))
 
