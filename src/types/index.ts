@@ -14,6 +14,10 @@ export interface Product {
   sell_price: number;
   quantity: number;
   godown_quantity?: number;
+  wholesale_price?: number;
+  min_wholesale_qty?: number;
+  unit?: string;
+  box_size?: number;
   low_stock_threshold: number;
   image_url?: string;
   gst_rate: number; // 0, 5, 12, 18, 28
