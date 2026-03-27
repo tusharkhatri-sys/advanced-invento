@@ -3,7 +3,7 @@ import { Plus, Search, Filter, Edit2, Trash2, Package, RefreshCw, ArrowRightLeft
 import { useProducts, useDeleteProduct, useTransferStock } from '../../hooks/useProducts'
 import { categoryLabels, categoryColors, formatCurrency, getStockStatus } from '../../lib/utils'
 import Modal, { ConfirmModal } from '../ui/Modal'
-import ProductForm from './ProductForm.js'
+import ProductForm from './ProductForm'
 import LoadingSpinner from '../ui/LoadingSpinner'
 import type { Product, Category } from '../../types'
 

@@ -4,7 +4,7 @@ import { useCreateProduct, useUpdateProduct } from '../../hooks/useProducts'
 import { useSuppliers } from '../../hooks/useSuppliers'
 import { gstRates } from '../../lib/utils'
 import Modal from '../ui/Modal'
-import BarcodeScanner from './BarcodeScanner.js'
+import BarcodeScanner from './BarcodeScanner'
 import type { Product, Category } from '../../types'
 
 interface Props {
